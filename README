@@ -1,0 +1,17 @@
+Szczegoly dotyczace programu
+----------------------------
+
+1.
+
+Aby program zaczal dzialac zrob nastepujace rzeczy:
+ - sciagnij paczke z cassandra
+ - uruchom serwer odpalajac z konsoli <apache_root>/bin/cassandra
+ - uruchom program
+ 
+2.
+
+Jednym z fragmentów programu jest funcja "createSchema()". Jak nazwa wskazuje, sluzy ona do tworzenia schematu bazy danych, dlatego powinna byc uzyta tylko raz. Dobrze jest np zakomentowac linie main'a z wywolaniem tej funkcji.
+
+3. 
+
+Podczas dzialania programu najpewniej pojawia sie 3 ostrzezenia - dodanie plikow konfiguracyjnych do log4 powinno pomoc.
